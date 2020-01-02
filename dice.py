@@ -12,8 +12,7 @@ def roll(n, sides):
 
 dice = roll(n, sides)
 
-# def score(dice):
-#     if sides == 6:
+
 dscore=[]
 for x in dice:
     if x == 1:
