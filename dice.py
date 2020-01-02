@@ -26,7 +26,6 @@ if sides == 6:
             score = (0,2)
         elif roll == 6:
             score = (0,1)
-            # return(score)
 
 print(dice, sum(dice))
 print(score)
