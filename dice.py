@@ -10,24 +10,29 @@ def d(sides):
 def roll(n, sides):
     return tuple(d(sides) for _ in range(n))
 
+def score():
+    dscore=[]
+    if sides==6:
+        for x in dice:
+            if x == 1:
+                dscore.append([0,0])
+            elif x == 2:
+                dscore.append([0,0])
+            elif x == 3:
+                dscore.append([1,0])
+            elif x == 4:
+                dscore.append([1,1])
+            elif x == 5:
+                dscore.append([0,2])
+            elif x == 6:
+                dscore.append([0,1])
+        return dscore
+
 dice = roll(n, sides)
-
-
-dscore=[]
-for x in dice:
-    if x == 1:
-        dscore.append([0,0])
-    elif x == 2:
-        dscore.append([0,0])
-    elif x == 3:
-        dscore.append([1,0])
-    elif x == 4:
-        dscore.append([1,1])
-    elif x == 5:
-        dscore.append([0,2])
-    elif x == 6:
-        dscore.append([0,1])
-        # return(dscore)
+dice_score = score()
 
 print(dice, sum(dice))
-print(dscore)
+print(dice_score)
+
+
+
