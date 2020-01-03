@@ -33,10 +33,21 @@ def roll(die):
 @app.route('/rolldie', methods=['POST'])
 def postroll():
     data = request.get_json()
+    sum = [0,0,0]
+    individual_rolls = []
     for die in data:
-        print(roll(die))
-    print(data)
-    return "hi"
+        r = roll(die)
+        individual_rolls.append(r)
+        sum[0] += r[0]
+        sum[1] += r[1] 
+        sum[2] += r[2] 
+    print(sum)
+    print(individual_rolls)
+    return json.dumps({
+        "individual_rolls": individual_rolls,
+        "sum": sum
+    })
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=5000)
