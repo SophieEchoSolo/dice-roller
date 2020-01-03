@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="challenge-failure-failure.svg"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   id="svg951"
+   version="1.1"
+   viewBox="0 0 190.5 171.97917"
+   height="171.97917mm"
+   width="190.5mm">
+  <defs
+     id="defs945" />
+  <sodipodi:namedview
+     inkscape:snap-to-guides="false"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:window-height="1155"
+     inkscape:window-width="1920"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="g927"
+     inkscape:document-units="mm"
+     inkscape:cy="396.86535"
+     inkscape:cx="145.56175"
+     inkscape:zoom="1.0294055"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <sodipodi:guide
+       id="guide1535"
+       orientation="0,-1"
+       position="204.94988,85.856618" />
+    <sodipodi:guide
+       id="guide1537"
+       orientation="1,0"
+       position="95.342203,178.15372" />
+    <sodipodi:guide
+       id="guide921"
+       orientation="0,-1"
+       position="198.22723,0.27914301" />
+    <sodipodi:guide
+       id="guide1239"
+       orientation="0,-1"
+       position="163.98219,63.771489" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata948">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="g927"
+     inkscape:label="Hexagon red"
+     style="display:inline">
+    <path
+       sodipodi:type="star"
+       style="fill:#7d1821;fill-opacity:1;stroke:#000000;stroke-width:6.80601;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.995968;paint-order:normal"
+       id="path925"
+       sodipodi:sides="5"
+       sodipodi:cx="99.204468"
+       sodipodi:cy="107.15122"
+       sodipodi:r1="79.522881"
+       sodipodi:r2="64.335365"
+       sodipodi:arg1="0.9460316"
+       sodipodi:arg2="1.5743501"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 145.71791,171.65229 52.233752,171.32006 23.661522,82.30868 99.487076,27.628844 174.92207,82.846232 Z"
+       inkscape:transform-center-x="0.016326977"
+       inkscape:transform-center-y="-8.6800621"
+       transform="matrix(1.2066709,-0.00469952,0.00495273,1.1449831,-24.867966,-27.845406)" />
+  </g>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="icons">
+    <path
+       inkscape:connector-curvature="0"
+       id="path2047"
+       d="M 67.594318,38.093414 86.944139,65.637608 67.594318,93.181802 95.207372,74.038587 122.68269,93.181802 103.47063,65.637608 122.68269,38.093414 95.207372,57.374349 Z"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.18093;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.18093;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 67.693682,100.90616 19.349821,27.54421 -19.349821,27.5442 27.613054,-19.14322 27.475294,19.14322 -19.21205,-27.5442 19.21205,-27.54421 -27.475294,19.28096 z"
+       id="path2047-7"
+       inkscape:connector-curvature="0" />
+  </g>
+  <inkscape:templateinfo>
+    <inkscape:name>Genesys Dice</inkscape:name>
+    <inkscape:author>Christian Nikolajsen</inkscape:author>
+    <inkscape:date>2019-12-20</inkscape:date>
+  </inkscape:templateinfo>
+  <inkscape:templateinfo>
+    <inkscape:name>Genesys dice</inkscape:name>
+    <inkscape:date>2019-12-21</inkscape:date>
+  </inkscape:templateinfo>
+</svg>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="difficulty-failure-failure.svg"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   id="svg951"
+   version="1.1"
+   viewBox="0 0 190.5 171.97917"
+   height="171.97917mm"
+   width="190.5mm">
+  <defs
+     id="defs945" />
+  <sodipodi:namedview
+     inkscape:snap-to-guides="false"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:window-height="1155"
+     inkscape:window-width="1920"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="396.86535"
+     inkscape:cx="-63.944698"
+     inkscape:zoom="1.0294055"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <sodipodi:guide
+       id="guide1535"
+       orientation="0,-1"
+       position="204.94988,85.856618" />
+    <sodipodi:guide
+       id="guide1537"
+       orientation="1,0"
+       position="95.342203,178.15372" />
+    <sodipodi:guide
+       id="guide921"
+       orientation="0,-1"
+       position="198.22723,0.27914301" />
+    <sodipodi:guide
+       id="guide1239"
+       orientation="0,-1"
+       position="163.98219,63.771489" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata948">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     sodipodi:insensitive="true"
+     inkscape:label="Triangle purple"
+     id="g872"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <path
+       inkscape:connector-curvature="0"
+       id="path870"
+       d="M 95.374237,2.1366255 C 3.757741,167.67656 3.757741,167.67656 3.757741,167.67656 H 186.81352 Z"
+       style="fill:#6b00ff;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="icon">
+    <path
+       inkscape:connector-curvature="0"
+       id="path2047"
+       d="M 72.602964,64.907166 88.475892,87.50207 72.602964,110.09695 95.254347,94.393499 117.79276,110.09695 102.03282,87.50207 117.79276,64.907166 95.254347,80.723598 Z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85722;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.857221;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.60296,112.21363 15.872929,22.5949 -15.872929,22.59488 22.65138,-15.70345 22.53842,15.70345 -15.75994,-22.59488 15.75994,-22.5949 -22.53842,15.81643 z"
+       id="path2047-3"
+       inkscape:connector-curvature="0" />
+  </g>
+  <inkscape:templateinfo>
+    <inkscape:name>Genesys Dice</inkscape:name>
+    <inkscape:author>Christian Nikolajsen</inkscape:author>
+    <inkscape:date>2019-12-20</inkscape:date>
+  </inkscape:templateinfo>
+  <inkscape:templateinfo>
+    <inkscape:name>Genesys dice</inkscape:name>
+    <inkscape:date>2019-12-21</inkscape:date>
+  </inkscape:templateinfo>
+</svg>
