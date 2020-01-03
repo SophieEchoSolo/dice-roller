@@ -32,7 +32,7 @@ dice = roll(n, sides)
 dice_score = score()
 
 print(dice, sum(dice))
-print(dice_score)
+# print(dice_score)
 
 
 
