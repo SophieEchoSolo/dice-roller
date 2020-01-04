@@ -1,91 +1,69 @@
-/* body{
-  font-family: 'Montserrat', sans-serif;
+:root {
+    --bg-col: #675569;
 }
 
-h1{
-  text-color: #000000;
-} */
-
-#pstyle{
+#pstyle {
     color: #e4f2f0;
-  }
-  
-  #thirdStyle{
-    background-color: #99d8d0;
-    color: #170a19;
-    border-radius: 4px;
-    border-color: #000000
-  }
-  
-  #altStyle{
-    background-color: #99d8d0;
-    color: #170a19;
-    border-radius: 4px;
-    border-color: #000000
-  }
-  
-  #mainStyle{
-    background-color: #99d8d0;
-    color: #170a19;
-    border-radius: 4px;
-    border-color: #000000
-  }
-  
-  #topbar{
-    background-color: #170a19;
-  }
-  
-  #linkedin-button{
-    background-color: #99d8d0;
-    color: #170a19;
-    border-color: #000000
-  }
-  
-  #github-button{
-    background-color: #99d8d0;
-    color: #170a19;
-    border-color: #000000
-  }
-  
-  #style-button{
-    background-color: #99d8d0;
-    color: #170a19;
-  }
-  
-  .jumbotron{
-    background-color: #170a19;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+}
 
-  .table{
-    background-color: #170a19;
-    border-color: #170a19;
-  }
+#topbar .btn {
+    background-color: #99d8d0;
+    color: var(--bg-col);
+    border-radius: 4px;
+    border-color: #000000;
+    align-self: center;
+}
 
-  th{
-    background-color: #170a19;
-    border-color: #170a19;
-  }
-  td{
-    background-color: #170a19;
-    border-color: #170a19;
-  }
-  
-  .jumbotron, .jumbotron *, .jumbotron h1 {
+#topbar {
+    background-color: var(--bg-col);
+}
+
+#style-button {
+    background-color: #99d8d0;
+    color: var(--bg-col);
+}
+
+.jumbotron {
+    background-color: var(--bg-col);
+}
+
+.table {
+    background-color: var(--bg-col);
+    white-space: nowrap;
+}
+
+th {
+    background-color: var(--bg-col);
+}
+
+td {
+    background-color: var(--bg-col);
+}
+
+td img {
+    height: 1.3em;
+}
+
+tr {
+    background-color: var(--bg-col);
+}
+
+.jumbotron,
+.jumbotron *,
+.jumbotron h1 {
     color: #e4f2f0;
-  }
-  
-  .jumbotron a, a{
+}
+
+.jumbotron a,
+a {
     color: #D3BCC0;
-  }
-  
-  a:hover{
+}
+
+a:hover {
     color: #99d8d0
-  }
-  
-  body{
+}
+
+body {
     background-color: #e4f2f0;
     color: #FFFFFF;
-  }
-  
+}
