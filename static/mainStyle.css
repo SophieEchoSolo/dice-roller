@@ -1,0 +1,91 @@
+/* body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  text-color: #000000;
+} */
+
+#pstyle{
+    color: #e4f2f0;
+  }
+  
+  #thirdStyle{
+    background-color: #99d8d0;
+    color: #170a19;
+    border-radius: 4px;
+    border-color: #000000
+  }
+  
+  #altStyle{
+    background-color: #99d8d0;
+    color: #170a19;
+    border-radius: 4px;
+    border-color: #000000
+  }
+  
+  #mainStyle{
+    background-color: #99d8d0;
+    color: #170a19;
+    border-radius: 4px;
+    border-color: #000000
+  }
+  
+  #topbar{
+    background-color: #170a19;
+  }
+  
+  #linkedin-button{
+    background-color: #99d8d0;
+    color: #170a19;
+    border-color: #000000
+  }
+  
+  #github-button{
+    background-color: #99d8d0;
+    color: #170a19;
+    border-color: #000000
+  }
+  
+  #style-button{
+    background-color: #99d8d0;
+    color: #170a19;
+  }
+  
+  .jumbotron{
+    background-color: #170a19;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .table{
+    background-color: #170a19;
+    border-color: #170a19;
+  }
+
+  th{
+    background-color: #170a19;
+    border-color: #170a19;
+  }
+  td{
+    background-color: #170a19;
+    border-color: #170a19;
+  }
+  
+  .jumbotron, .jumbotron *, .jumbotron h1 {
+    color: #e4f2f0;
+  }
+  
+  .jumbotron a, a{
+    color: #D3BCC0;
+  }
+  
+  a:hover{
+    color: #99d8d0
+  }
+  
+  body{
+    background-color: #e4f2f0;
+    color: #FFFFFF;
+  }
+  
