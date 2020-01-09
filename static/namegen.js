@@ -15,7 +15,7 @@ const names = [
 function getSlug(result) {
     return result.map((r, i) => {
         let index = Math.sign(r);
-        if(index === 0) return null;
+        if (index === 0) return null;
         index = Math.max(index, 0);
         return new Array(Math.abs(r)).fill(null).map(() => names[i][index]).join('-');
     }).filter(e => e != null).join('-') || 'blank';
