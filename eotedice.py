@@ -43,7 +43,8 @@ def postroll():
     print(individual_rolls)
     return json.dumps({
         "individual_rolls": individual_rolls,
-        "sum": sum
+        "sum": sum,
+        "hello": "world"
     })
 
 @app.route('/', methods=['GET'])
