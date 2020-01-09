@@ -71,6 +71,7 @@ body {
 .dicecol {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #diceinputs input.dice {
@@ -78,13 +79,23 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    font-size: 1rem;
-    line-height: 1.5;
-    padding: .375rem .75rem;
-    width: 3em;
-    height: 3em;
+    font-size: 1.3rem;
+    line-height: 1;
+    padding: .75rem .75rem .0rem .75rem;
+    width: 3rem;
+    height: 3rem;
     border: none;
     box-shadow: none;
     text-align: center;
     display: inline-block;
+}
+
+#total-roll img {
+    width: 3em;
+    height: 3em;
+}
+
+#aggregate-roll img {
+    width: 3em;
+    height: 3em;
 }
