@@ -30,6 +30,7 @@
 .table {
     background-color: var(--bg-col);
     white-space: nowrap;
+    color: #ffffff;
 }
 
 th {
