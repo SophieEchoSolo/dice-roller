@@ -8,6 +8,7 @@
     <link href="/static/fontawesome/css/all.min.css" rel="stylesheet">
     <link id="changed2" rel="stylesheet" href="/static/mainStyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/static/namegen.js"></script>
 </head>
 
 <body>
@@ -45,70 +46,65 @@
                 <div class="jumbotron h-100">
                     <h4 class="text-center">Let's Roll!</h4>
                     <div class="row">
-                        <div class="col-xl-2 col-sm-6 dicecol" id="ability">
+                        <div class="col-sm-6 dicecol" id="ability">
                             <button type="button" class="minus btn btn-light"><i class="fas fa-minus"></i></button>
                             <input style="background-image: url(/static/dice/ability-blank.svg)" type="text" class="dice">
                             <button type="button" class="plus btn btn-light"><i class="fas fa-plus"></i></button>
                         </div>
-                        <div class="col-xl-2 col-sm-6 dicecol" id="difficulty">
+                        <div class="col-sm-6 dicecol" id="difficulty">
                             <button type="button" class="minus btn btn-light"><i class="fas fa-minus"></i></button>
                             <input style="background-image: url(/static/dice/difficulty-blank.svg)" type="text" class="dice">
                             <button type="button" class="plus btn btn-light"><i class="fas fa-plus"></i></button>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-2 col-sm-6 dicecol" id="proficiency">
+                        <div class="col-sm-6 dicecol" id="proficiency">
                             <button type="button" class="minus btn btn-light"><i class="fas fa-minus"></i></button>
                             <input style="background-image: url(/static/dice/proficiency-blank.svg)" type="text" class="dice">
                             <button type="button" class="plus btn btn-light"><i class="fas fa-plus"></i></button>
                         </div>
-                        <div class="col-xl-2 col-sm-6 dicecol" id="challenge">
+                        <div class="col-sm-6 dicecol" id="challenge">
                             <button type="button" class="minus btn btn-light"><i class="fas fa-minus"></i></button>
                             <input style="background-image: url(/static/dice/challenge-blank.svg)" type="text" class="dice">
                             <button type="button" class="plus btn btn-light"><i class="fas fa-plus"></i></button>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <div class="col-xl-2 col-sm-6 dicecol" id="boost">
+                        <div class="col-sm-6 dicecol" id="boost">
                             <button type="button" class="minus btn btn-light"><i class="fas fa-minus"></i></button>
                             <input style="background-image: url(/static/dice/boost-blank.svg)" type="text" class="dice">
                             <button type="button" class="plus btn btn-light"><i class="fas fa-plus"></i></button>
                         </div>
-                        <div class="col-xl-2 col-sm-6 dicecol" id="setback">
+                        <div class="col-sm-6 dicecol" id="setback">
                             <button type="button" class="minus btn btn-light"><i class="fas fa-minus"></i></button>
                             <input style="background-image: url(/static/dice/setback-blank.svg)" type="text" class="dice">
                             <button type="button" class="plus btn btn-light"><i class="fas fa-plus"></i></button>
                         </div>
                     </div>
                     <div class="row mb-5 justify-content-center">
-                        <button type="button" class="btn btn-light font-weight-bold">Roll Dice</button>
+                        <button type="button" id="rollDice" class="btn btn-light font-weight-bold">Roll Dice</button>
+                        <button type="button" id="clear" class="btn btn-light font-weight-bold ml-1">Clear All</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-md-12 dicecol justify-content-center">
+                            <p class="lead">Aggregate Roll:</p>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-xl-12 col-md-12 dicecol justify-content-center" id="aggregate-roll">
+                            <p class="lead">Roll dice to get results!</p>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-xl-12 col-md-12 dicecol justify-content-center">
                             <p class="lead">Total Roll:</p>
                         </div>
                     </div>
-                    <div class="row mb-5">
+                    <div class="row">
                         <div class="col-xl-12 col-md-12 dicecol justify-content-center" id="total-roll">
-                            <img src="/static/dice/difficulty-failure-failure.svg" alt="">
-                            <img src="/static/dice/difficulty-threat.svg" alt="">
-                            <img src="/static/dice/proficiency-triumph.svg" alt="">
-                            <img src="/static/dice/ability-advantage-advantage.svg" alt="">
-                            <img src="/static/dice/ability-success.svg" alt="">
-                            <img src="/static/dice/ability-success.svg" alt="">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xl-12 col-md-12 dicecol justify-content-center">
-                            <p class="lead">Aggreagte Roll:</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-12 col-md-12 dicecol justify-content-center" id="aggregate-roll">
-                            <img src="/static/dice/proficiency-triumph.svg" alt="">
-                            <img src="/static/dice/ability-advantage.svg" alt="">
-                        </div>
-                    </div>
+
 
                 </div>
             </div>
