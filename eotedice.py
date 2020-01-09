@@ -1,10 +1,8 @@
 from flask import Flask, escape, request
 import json
-from flask_cors import CORS
 from random import randint
 
 app = Flask(__name__)
-cors = CORS(app)
 
 # dictionary for each type of die and their sides
 # the position in the lists corresponds to a pip on the physical dice
