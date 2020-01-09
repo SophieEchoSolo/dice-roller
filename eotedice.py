@@ -3,6 +3,7 @@ import json
 from random import randint
 
 app = Flask(__name__)
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 # dictionary for each type of die and their sides
 # the position in the lists corresponds to a pip on the physical dice
