@@ -49,7 +49,6 @@ tr {
 }
 
 .jumbotron,
-.jumbotron *,
 .jumbotron h1 {
     color: #e4f2f0;
 }
@@ -66,4 +65,25 @@ a:hover {
 body {
     background-color: #e4f2f0;
     color: #FFFFFF;
+}
+
+.dicecol {
+    display: flex;
+    align-items: center;
+}
+
+#diceinputs input.dice {
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    width: 3em;
+    height: 3em;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    display: inline-block;
 }

@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>EOTE Dice App</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="/static/fontawesome/css/all.min.css" rel="stylesheet">
     <link id="changed2" rel="stylesheet" href="/static/mainStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -14,56 +15,31 @@
         <a id="pstyle" class="navbar-brand" href="#">Sophie Lennon</a>
 
         <div class="container-fluid">
-            <a href="https://www.linkedin.com/in/sophie-grey-lennon/" class="btn btn-primary btn-md active"
-                role="button" type="button">LinkedIn</a>
-            <a href="https://github.com/SophieOrgana/" class="btn btn-primary btn-md active ml-1" role="button"
-                type="button">GitHub</a>
-            <a href="https://www.sophiesolo.biz" class="btn btn-primary btn-md active ml-auto" role="button"
-                type="button"> Home</a>
+            <a href="https://www.linkedin.com/in/sophie-grey-lennon/" class="btn btn-primary btn-md active" role="button" type="button">LinkedIn</a>
+            <a href="https://github.com/SophieOrgana/" class="btn btn-primary btn-md active ml-1" role="button" type="button">GitHub</a>
+            <a href="https://www.sophiesolo.biz" class="btn btn-primary btn-md active ml-auto" role="button" type="button"> Home</a>
         </div>
     </nav>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center" id="diceinputs">
         <div class="jumbotron h-100 mt-3 mb-0">
             <h4>Let's Roll!</h4>
             <div class="row">
-                <div class="col-xl-2 col-md-1 pr-0 ">
-                    <img src="/static/dice/ability-blank.svg" alt="" class="float-right mt-2">
+                <div class="col-xl-2 col-md-5 dicecol" id="ability">
+                    <button type="button" class="minus btn btn-light"><i class="fas fa-minus"></i></button>
+                    <input style="background-image: url(/static/dice/ability-blank.svg)" type="text" value="0" min="0" class="dice">
+                    <button type="button" class="plus btn btn-light"><i class="fas fa-plus"></i></button>
                 </div>
-                <div class="col-xl-2 col-md-5">
-                    <input type="number" name="a" id="ability" value="0" min="0" class="dice form-control">
-                </div>
-                <div class="col-xl-2 col-md-1 pr-0">
-                    <img src="/static/dice/proficiency-blank.svg" alt="" class="float-right mt-2">
-                </div>
-                <div class="col-xl-2 col-md-5">
-                    <input type="number" name="a" id="proficiency" value="0" min="0" class="dice form-control">
-                </div>
-                <div class="col-xl-2 col-md-1 pr-0">
-                    <img src="/static/dice/boost-blank.svg" alt="" class="float-right mt-2">
-                </div>
-                <div class="col-xl-2 col-md-5">
-                    <input type="number" name="a" id="boost" value="0" min="0" class="dice form-control">
+                <div class="col-xl-2 col-md-5 dicecol" id="difficulty">
+                    <button type="button" class="minus btn btn-light"><i class="fas fa-minus"></i></button>
+                    <input style="background-image: url(/static/dice/difficulty-blank.svg)" type="text" value="0" min="0" class="dice">
+                    <button type="button" class="plus btn btn-light"><i class="fas fa-plus"></i></button>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-2 col-md-1 pr-0">
-                    <img src="/static/dice/difficulty-blank.svg" alt="" class="float-right mt-2">
-                </div>
-                <div class="col-xl-2 col-md-5">
-                    <input type="number" name="a" id="difficulty" value="0" min="0" class="dice form-control">
-                </div>
-                <div class="col-xl-2 col-md-1 pr-0">
-                    <img src="/static/dice/challenge-blank.svg" alt="" class="float-right mt-2">
-                </div>
-                <div class="col-xl-2 col-md-5">
-                    <input type="number" name="a" id="challenge" value="0" min="0" class="dice form-control">
-                </div>
-                <div class="col-xl-2 col-md-1 pr-0">
-                    <img src="/static/dice/setback-blank.svg" alt="" class="float-right mt-2">
-                </div>
-                <div class="col-xl-2 col-md-5">
-                    <input type="number" name="a" id="setback" value="0" min="0" class="dice form-control">
-                </div>
+
+            </div>
+            <div class="row">
+
             </div>
         </div>
     </div>
@@ -72,8 +48,7 @@
             <div class="col-md-6 mt-3">
                 <div class="jumbotron h-100">
                     <h3 class="text-center">EOTE Dice Roller</h3>
-                    <p class="lead">This app is used to roll the unique dice from the <a
-                            href="https://www.fantasyflightgames.com/en/products/star-wars-edge-of-the-empire/">Edge of
+                    <p class="lead">This app is used to roll the unique dice from the <a href="https://www.fantasyflightgames.com/en/products/star-wars-edge-of-the-empire/">Edge of
                             the Empire</a> tabletop game</p>
                 </div>
             </div>
@@ -128,6 +103,7 @@
             </div>
         </div>
     </div>
+    <script src="/static/main.js"></script>
 </body>
 
 </html>
